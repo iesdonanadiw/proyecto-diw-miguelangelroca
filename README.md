@@ -8,7 +8,10 @@
 4. [RECURSOS](#id4)
 
 ## DESCRIPCIÓN<a name="id1"></a>
-[Incluye la descripción de tu proyecto.]
+
+Tienda online especializada en productos CBD. Contamos con un gran catálogo de productos CBD y 
+nuestro principal objetivo es ayudar con este producto desconocido o mal visto a personas que realmente 
+necesitan este producto, para mejorar en calidad de vida a un precio razonable.
 
 ## PROTOTIPO<a name="id2"></a>
 
@@ -18,8 +21,8 @@
 [Listado de modificaciones realizadas debidadmente justificadas. ]
 
 ## RECURSOS<a name="id4"></a>
-[Listado de recursos usados]
 
+- CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
 - Tailwind: https://tailwindcss.com/docs

@@ -1,0 +1,96 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: “”;
+  clear: both;
+  display: table;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* FIN RESET */
+
+/* Barra de navegacion */
+.container_navbar {
+  background-color: green;
+}
+.navbar {
+  background-color: greenyellow;
+}
+.navbar_menu {
+  background-color: aqua;
+}
+.navbar_search {
+  background-color: blue;
+}
+.search_input {
+  background-color: blueviolet;
+}
+.search_button {
+  background-color: rebeccapurple;
+}
+.navbar_login {
+  background-color: brown;
+}
+.login_button {
+  background-color: chocolate;
+}
+.login_image {
+  background-color: white;
+  width: 5%;
+}
+/* Fin barra de navegacion */
+
+/* Contenido principal */
+.container_main {
+  background-color: goldenrod;
+}
+/* Fin contenido principal */
+
+/* Pie de pagina */
+.container_footer {
+  background-color: darkolivegreen;
+}
+.footer_rights {
+  background-color: deeppink;
+}
+.footer_icons {
+  background-color: indianred;
+}
+/* Fin pie de pagina */
