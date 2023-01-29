@@ -49,31 +49,82 @@ table {
 /* Barra de navegacion */
 .container_navbar {
   background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 5px 5%;
+}
+.navbar_logo {
+  background-color: white;
+  margin: 10px;
+  height: 70px;
+  width: auto;
+  border-radius: 5px;
 }
 .navbar {
   background-color: greenyellow;
 }
 .navbar_menu {
   background-color: aqua;
+  margin: 5px;
+}
+.navbar_menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.navbar_menu li:hover {
+  transform: scale(1.1);
+}
+
+.navbar_menu a {
+  text-decoration: none;
+}
+
+.navbar_menu li a:hover {
+  color: white;
 }
 .navbar_search {
   background-color: blue;
+  display: flex;
 }
 .search_input {
   background-color: blueviolet;
+  border-radius: 7px;
+  width: 150px;
 }
 .search_button {
-  background-color: rebeccapurple;
+  border-radius: 10px;
+}
+.search_button:hover {
+  color: white;
+  transform: scale(1.1);
+}
+.search_button img {
+  background-color: white;
+  height: 30px;
+  min-width: 30px;
+  border-radius: 10px;
 }
 .navbar_login {
   background-color: brown;
+  display: flex;
 }
 .login_button {
   background-color: chocolate;
+  margin: 10px;
+  border-radius: 5px;
+}
+.login_button:hover {
+  color: white;
+  transform: scale(1.1);
 }
 .login_image {
   background-color: white;
-  width: 5%;
+  margin: 10px;
+  height: 25px;
+  width: auto;
+  border-radius: 10px;
 }
 /* Fin barra de navegacion */
 
@@ -85,6 +136,7 @@ table {
 
 /* Pie de pagina */
 .container_footer {
+  display: flex;
   background-color: darkolivegreen;
 }
 .footer_rights {
