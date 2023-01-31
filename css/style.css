@@ -17,10 +17,12 @@ html {
   font-size: 62.5%;
 }
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   line-height: 1.5;
+  min-height: 100vh;
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 img,
 picture,
@@ -52,13 +54,13 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 7vh;
   padding: 5px 5%;
 }
 .navbar_logo {
   background-color: white;
   margin: 10px;
-  height: 70px;
+  height: 7vh;
   width: auto;
   border-radius: 5px;
 }
@@ -131,18 +133,50 @@ table {
 /* Contenido principal */
 .container_main {
   background-color: goldenrod;
+  min-height: 86vh;
+}
+.main_title {
+  text-align: center;
+  height: 6vh;
+  width: 100vw;
+  background-color: aqua;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw;
+  height: 25vh;
+  margin: 3vw;
+  background-color: blue;
+}
+.product_image img {
+  width: 20vw;
+  height: 25vh;
 }
 /* Fin contenido principal */
 
 /* Pie de pagina */
 .container_footer {
   display: flex;
-  background-color: darkolivegreen;
+  height: 7vh;
+  background-color: green;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
 }
 .footer_rights {
   background-color: deeppink;
+  margin-left: 5vh;
 }
 .footer_icons {
   background-color: indianred;
+  margin-right: 5vh;
 }
 /* Fin pie de pagina */
