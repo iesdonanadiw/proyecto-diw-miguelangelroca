@@ -21,8 +21,11 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template:
+    "navbar" 6%
+    "main" 88%
+    "footer" 6%;
 }
 img,
 picture,
@@ -49,27 +52,19 @@ table {
 /* FIN RESET */
 
 /* Barra de navegacion */
-.container_navbar {
+.navbar {
+  grid-area: navbar;
   background-color: green;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7vh;
   padding: 5px 5%;
 }
+
 .navbar_logo {
-  background-color: white;
-  margin: 10px;
-  height: 7vh;
+  height: 6vh;
   width: auto;
   border-radius: 5px;
-}
-.navbar {
-  background-color: greenyellow;
-}
-.navbar_menu {
-  background-color: aqua;
-  margin: 5px;
 }
 .navbar_menu li {
   display: inline-block;
@@ -81,17 +76,16 @@ table {
 
 .navbar_menu a {
   text-decoration: none;
+  color: black;
 }
 
 .navbar_menu li a:hover {
   color: white;
 }
 .navbar_search {
-  background-color: blue;
   display: flex;
 }
 .search_input {
-  background-color: blueviolet;
   border-radius: 7px;
   width: 150px;
 }
@@ -103,13 +97,11 @@ table {
   transform: scale(1.1);
 }
 .search_button img {
-  background-color: white;
   height: 30px;
   min-width: 30px;
   border-radius: 10px;
 }
 .navbar_login {
-  background-color: brown;
   display: flex;
 }
 .login_button {
@@ -131,52 +123,51 @@ table {
 /* Fin barra de navegacion */
 
 /* Contenido principal */
-.container_main {
+.main {
+  grid-area: main;
+  overflow-y: scroll;
   background-color: goldenrod;
-  min-height: 86vh;
+  border: solid 5px black;
 }
 .main_title {
   text-align: center;
-  height: 6vh;
-  width: 100vw;
-  background-color: aqua;
 }
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 1vw;
+  gap: 10px;
+  background-color: yellow;
+  border: solid 5px red;
 }
 .product {
   display: flex;
   flex-wrap: wrap;
-  width: 20vw;
-  height: 25vh;
-  margin: 3vw;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  padding: 10px;
   background-color: blue;
 }
-.product_image img {
+.product_image img{
   width: 20vw;
   height: 25vh;
 }
 /* Fin contenido principal */
 
 /* Pie de pagina */
-.container_footer {
+.footer {
+  grid-area: footer;
   display: flex;
-  height: 7vh;
   background-color: green;
   align-items: center;
   justify-content: space-between;
-  margin-top: auto;
 }
 .footer_rights {
-  background-color: deeppink;
   margin-left: 5vh;
 }
 .footer_icons {
-  background-color: indianred;
   margin-right: 5vh;
 }
 /* Fin pie de pagina */
