@@ -9,7 +9,6 @@
   padding: 0;
 }
 .clearfix::after {
-  content: “”;
   clear: both;
   display: table;
 }
@@ -54,7 +53,7 @@ table {
 /* Barra de navegacion */
 .navbar {
   grid-area: navbar;
-  background-color: green;
+  background: linear-gradient(#4caf50, #8bc34a);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,11 +75,11 @@ table {
 
 .navbar_menu a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .navbar_menu li a:hover {
-  color: white;
+  color: black;
 }
 .navbar_search {
   display: flex;
@@ -104,13 +103,15 @@ table {
   display: flex;
 }
 .login_button {
-  background-color: greenyellow;
+  background-color: #4caf50;
+  color: white;
   margin: 10px;
-  border-radius: 3px;
-  width: 50px;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
 }
 .login_button:hover {
-  color: white;
+  color: black;
   transform: scale(1.2);
 }
 .login_image {
@@ -120,50 +121,22 @@ table {
   width: auto;
   border-radius: 10px;
 }
-/* #menu, #menu-check{
-  display: none;
-} */
 /* Fin barra de navegacion */
 
 /* Contenido principal */
-.main {
-  grid-area: main;
-}
-.main_title {
-  text-align: center;
-}
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 5px;
-}
-.product {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 20vw;
-  padding: 15px;
-  border: solid 2px green;
-  border-radius: 10px;
-  background-color: greenyellow;
-}
-.product_image img{
-  width: auto;
-  height: 25vh;
-}
+
+/**************************/
+
 /* Fin contenido principal */
 
 /* Pie de pagina */
 .footer {
   grid-area: footer;
   display: flex;
-  background-color: green;
+  background: linear-gradient(#4caf50, #8bc34a);
   align-items: center;
   justify-content: space-between;
+  color: white;
 }
 .footer_rights {
   margin-left: 5vh;
@@ -172,75 +145,3 @@ table {
   margin-right: 5vh;
 }
 /* Fin pie de pagina */
-
-
-/*RESPONSIVE*/
-
-/* Dispositivos muy pequeños (moviles, 600px o menos) */
-@media only screen and (max-width: 600px) {
-  .navbar{
-    height: 12vh;
-  }
-  .products{
-    flex-flow: column;
-  }
-  .product{
-    width: 100%;
-  }
-  .footer{
-    flex-flow: column;
-    height: 8vh;
-    align-items: baseline;
-  }
-  .navbar_menu{
-    display: flex;
-    flex-flow: column;
-  }
-  .navbar_login{
-    flex-flow: column-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-  .login_image {
-    width: 40px;
-    height: auto;
-  }
-  .search_input{
-    width: 80px;
-  }
-
-  /* #menu-check:not(:checked) .navbar > .navbar_menu, .navbar_login{
-    display: none;
-  } */
-
-  /* #menu-check:checked ~ .navbar{
-    display: flex;
-  } */
-
-  /* #menu {
-    display: block;
-    background-color: greenyellow;
-    font-size: 1.2em;
-    font-weight: bold;
-    border: solid 3px greenyellow;
-    border-radius: 3px;
-  }
-  #menu-cerrar {
-    display: none;
-  } */
-
-}
-
-/* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
-/*@media only screen and (min-width: 600px) {...}*/
-
-/* Dispositivos medianos (tablets grandes, 768px o mas) */
-/*@media only screen and (min-width: 768px) {...}*/
-
-/* Dispositivos grandes (portatiles/escritorio, 992px o mas) */
-/*@media only screen and (min-width: 992px) {...}*/
-
-/* Dispositivos muy grandes (portatiles/escritorio grandes, 1200px o mas) */
-/*@media only screen and (min-width: 1200px) {...}*/
-
-/* FIN RESPONSIVE */
