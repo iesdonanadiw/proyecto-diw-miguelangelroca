@@ -36,6 +36,16 @@ necesitan este producto, para mejorar en calidad de vida a un precio razonable.
 
   Le añadi una foto de una silueta, me parece mas estético.
 
+- Fuente de la página:
+
+  Despúes de realizar diferentes pruebas, finalmente Utilicé la Roboto Regular 400 para toda la página. Es la que más
+  me gusto y se adapta a una mejor legibilidad a mi parecer.
+
+- Iconos de las redes sociales del footer:
+
+  Quité uno que no me parecia util para nada, además los agrandé un poco y para que sean mas visibles
+  no le puse el border radius, así creo que destacan más.
+
 ## RECURSOS<a name="id4"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/

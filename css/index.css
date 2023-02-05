@@ -30,80 +30,39 @@
   width: auto;
   height: 25vh;
 }
+.product_description {
+  height: 10vh;
+}
 /* Fin contenido principal */
 
 /*RESPONSIVE*/
 
 /* Dispositivos muy pequeños (moviles, 600px o menos) */
 @media only screen and (max-width: 600px) {
-  .navbar {
-    height: 12vh;
-  }
-  .navbar_menu {
-    display: flex;
-    flex-flow: column;
-  }
-  .navbar_search {
-    flex-flow: column;
-    align-items: center;
-  }
-  .search_input {
-    width: 60px;
-  }
-  .search_button {
-    width: 30px;
-  }
-  .navbar_login {
-    flex-flow: column-reverse;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 12vh;
-  }
-  .login_image {
-    width: 30px;
-    height: auto;
-  }
-  .login_button {
-    margin: 0;
-  }
   .products {
     flex-flow: column;
   }
   .product {
     width: 100%;
+    height: auto;
   }
-  .footer {
-    flex-flow: column;
-    height: 12vh;
-    align-items: baseline;
-    justify-content: space-evenly;
-  }
-  .footer_rights {
-    margin-left: 1vh;
+  .product_description {
+    width: 100%;
+    height: auto;
   }
 }
 
 /* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
 @media only screen and (min-width: 600px) {
-  .navbar {
-    height: 50%;
-  }
-  .navbar_menu {
-    display: flex;
-    flex-flow: row;
-  }
-  .search_input {
-    width: 75px;
-  }
   .products {
     flex-flow: wrap;
   }
   .product {
     width: 90%;
   }
-  .footer {
-    height: 50%;
+  .product_description {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -112,33 +71,17 @@
 
 /* Dispositivos grandes (portatiles/escritorio, 992px o mas) */
 @media only screen and (min-width: 992px) {
-  .navbar {
-    height: 100%;
-  }
-  .search_input {
-    width: 150px;
-  }
   .product {
-    width: 32%;
-  }
-  .footer {
-    height: 100%;
+    width: 360px;
+    height: 400px;
   }
 }
 
 /* Dispositivos muy grandes (portatiles/escritorio grandes, 1200px o mas) */
 @media only screen and (min-width: 1200px) {
-  .navbar {
-    height: 100%;
-  }
-  .search_input {
-    width: 200px;
-  }
   .product {
-    width: 32%;
-  }
-  .footer {
-    height: 100%;
+    width: 400px;
+    height: 350px;
   }
 }
 
