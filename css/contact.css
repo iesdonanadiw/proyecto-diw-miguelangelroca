@@ -21,6 +21,11 @@
   box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 }
+.tarjeta img {
+  width: 40%;
+  box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
+    0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+}
 .tarjeta form {
   display: flex;
   flex-direction: column;
@@ -30,49 +35,23 @@
   width: 100%;
   height: 100%;
 }
-.tarjeta form p {
+
+.tarjeta label,
+h3 {
   color: #4caf50;
-  font-size: 30px;
-}
-.tarjeta form input {
-  width: 80%;
-  height: 35px;
-  border-radius: 5px;
-  border: solid 1px rgb(167, 166, 166);
-  background-color: rgb(233, 229, 229);
-}
-.tarjeta label {
-  color: gray;
 }
 .input {
   display: flex;
-  flex-direction: column;
   gap: 10px;
   width: 100%;
-  padding-left: 10%;
+  padding: 0px 10px 0px 10px;
 }
-.sesion_button {
-  background-color: #4caf50;
-  color: white;
-  margin: 10px;
-  border-radius: 5px;
-  width: 150px;
-  height: 40px;
-  border: none;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.sesion_button:hover {
-  color: black;
-  transform: scale(1.1);
-}
-.container form a {
-  text-decoration: none;
-  color: #4caf50;
-}
-.container form a:hover {
-  transform: scale(1.1);
-}
+
 /* Fin contenido principal */
 
 /*RESPONSIVE*/
@@ -80,7 +59,7 @@
 /* Dispositivos muy pequeños (moviles, 600px o menos) */
 @media only screen and (max-width: 600px) {
   .container {
-    height: 100vh;
+    margin: 20px 0px 100px 0px;
   }
   .tarjeta {
     height: fit-content;
@@ -89,6 +68,9 @@
 
 /* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
 @media only screen and (min-width: 600px) {
+  .container {
+    margin: 20px 0px 100px 0px;
+  }
   .tarjeta {
     height: fit-content;
   }

@@ -80,7 +80,7 @@
 /* Dispositivos muy pequeños (moviles, 600px o menos) */
 @media only screen and (max-width: 600px) {
   .container {
-    height: 100vh;
+    margin: 20px 0px 100px 0px;
   }
   .tarjeta {
     height: fit-content;
@@ -89,6 +89,9 @@
 
 /* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
 @media only screen and (min-width: 600px) {
+  .container {
+    margin: 20px 0px 100px 0px;
+  }
   .tarjeta {
     height: fit-content;
   }

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/session.css" />
-    <title>Sesión</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <title>Registro</title>
   </head>
   <body>
     <nav class="navbar" id="navbar">
@@ -37,7 +37,7 @@
       <div class="container">
         <div class="tarjeta">
           <form action="#">
-            <p>Iniciar Sesión</p>
+            <p>Registrarse</p>
             <div class="input">
               <label for="usuario">Usuario:</label>
               <input
@@ -54,8 +54,39 @@
                 placeholder=" Escriba su contraseña..."
               />
             </div>
-            <button class="sesion_button">Iniciar Sesión</button>
-            <a href="register.html">¿No estas registrado?</a>
+            <div class="input">
+              <label for="confirm_password">Confirmar Contraseña:</label>
+              <input
+                type="password"
+                name="confirm_password"
+                placeholder=" Confirme su contraseña..."
+              />
+            </div>
+            <div class="input">
+              <label for="usuario">Email:</label>
+              <input
+                type="text"
+                name="email"
+                placeholder=" Escriba su email..."
+              />
+            </div>
+            <div class="input">
+              <label for="usuario">Teléfono:</label>
+              <input
+                type="text"
+                name="telefono"
+                placeholder=" Escriba su teléfono..."
+              />
+            </div>
+            <div class="input">
+              <label for="usuario">Dirección:</label>
+              <input
+                type="text"
+                name="direccion"
+                placeholder=" Escriba su dirección..."
+              />
+            </div>
+            <button class="sesion_button">Crear Cuenta</button>
           </form>
         </div>
       </div>

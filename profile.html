@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/session.css" />
-    <title>Sesión</title>
+    <link rel="stylesheet" href="css/profile.css" />
+    <title>Perfil</title>
   </head>
   <body>
     <nav class="navbar" id="navbar">
@@ -30,20 +30,24 @@
       </form>
       <form class="navbar_login" action="session.html">
         <button class="login_button">Usuario</button>
-        <a href="profile.html"><img src="img/photo.png" class="login_image" alt="user" /></a>
+        <a href="profile.html"
+          ><img src="img/photo.png" class="login_image" alt="user"
+        /></a>
       </form>
     </nav>
     <main class="main">
       <div class="container">
         <div class="tarjeta">
-          <form action="#">
-            <p>Iniciar Sesión</p>
+          <div class="form">
+            <p>Mi Perfil</p>
             <div class="input">
               <label for="usuario">Usuario:</label>
               <input
                 type="text"
                 name="usuario"
-                placeholder=" Escriba su usuario..."
+                placeholder=" Tú Usuario"
+                id="user"
+                disabled
               />
             </div>
             <div class="input">
@@ -51,12 +55,49 @@
               <input
                 type="password"
                 name="password"
-                placeholder=" Escriba su contraseña..."
+                placeholder=" Escriba la nueva contraseña..."
               />
             </div>
-            <button class="sesion_button">Iniciar Sesión</button>
-            <a href="register.html">¿No estas registrado?</a>
-          </form>
+            <div class="input">
+              <label for="confirm_password">Confirmar Contraseña:</label>
+              <input
+                type="password"
+                name="confirm_password"
+                placeholder=" Confirme su nueva contraseña..."
+              />
+            </div>
+            <div class="input">
+              <label for="usuario">Email:</label>
+              <input
+                type="text"
+                name="email"
+                placeholder=" Tú Email"
+                id="email"
+                disabled
+              />
+            </div>
+            <div class="input">
+              <label for="usuario">Teléfono:</label>
+              <input
+                type="text"
+                name="telefono"
+                placeholder=" Tú Teléfono..."
+              />
+            </div>
+            <div class="input">
+              <label for="usuario">Dirección:</label>
+              <input
+                type="text"
+                name="direccion"
+                placeholder=" Tú Dirección..."
+              />
+            </div>
+            <div class="tarjeta_button">
+              <a href="#"><button class="confirm_button button">Confirmar</button></a>
+              <a href="index.html"><button class="cancel_button button">Cancelar</button></a>
+              <a href="order.html"><button class="orders_button button">Pedidos</button></a>
+            </div>
+          </div>
         </div>
       </div>
     </main>

@@ -43,12 +43,25 @@ necesitan este producto, para mejorar en calidad de vida a un precio razonable.
 
 - Iconos de las redes sociales del footer:
 
-  Quité uno que no me parecia util para nada, además los agrandé un poco y para que sean mas visibles
+  Quité uno que no me parecia util para nada, además los agrandé un poco, y para que sean más visibles
   no le puse el border radius, así creo que destacan más.
+
+- Inputs del registrarse:
+
+  Añadí el teléfono de contacto y los reordene para una mejor lectura.
+
+- Perfil:
+
+  El acceso a la pagína del perfil es mediante click en la foto de perfil, soy consciente de que no es del todo intuitivo y de echo pense en añadir
+  un nuevo enlace en el menu del navbar, pero creo que no tiene mucho sentido teniendo en cuenta que el problema real es la falta de una vista con el
+  login ya realizado, así que para mantener lo expuesto en el figma lo solucioné de esta manera.
+
+  Añadido boton cancelar que te devuelve al index, para el caso de no querer modificar nada.
 
 ## RECURSOS<a name="id4"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/
+- CSS Documentation: https://developer.mozilla.org/es/docs/Web/CSS
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
 - Tailwind: https://tailwindcss.com/docs

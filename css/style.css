@@ -115,6 +115,9 @@ table {
   justify-content: center;
   align-items: center;
 }
+.navbar_login a:hover {
+  transform: scale(1.1);
+}
 .login_button {
   background-color: #4caf50;
   color: white;
@@ -226,7 +229,7 @@ table {
 /* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
 @media only screen and (min-width: 600px) {
   .navbar {
-    height: 50%;
+    height: 100%;
   }
   .navbar_menu {
     display: flex;
@@ -236,12 +239,9 @@ table {
     width: 70px;
   }
   .footer {
-    height: 50%;
+    height: 100%;
   }
 }
-
-/* Dispositivos medianos (tablets grandes, 768px o mas) */
-/*@media only screen and (min-width: 768px) {...}*/
 
 /* Dispositivos grandes (portatiles/escritorio, 992px o mas) */
 @media only screen and (min-width: 992px) {
