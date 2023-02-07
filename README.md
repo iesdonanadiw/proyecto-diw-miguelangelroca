@@ -23,40 +23,49 @@ necesitan este producto, para mejorar en calidad de vida a un precio razonable.
 
 - Tarjeta de productos:
 
-  La descripción del producto y el nombre del mismo por motivos estéticos los deje con el
-  fondo uniforme verde, no me gustaba como quedaba con el fondo en blanco, como el figma,
-  pero si que me parecia estético con la sombra y el mismo color.
+La descripción del producto y el nombre del mismo por motivos estéticos los deje con el
+fondo uniforme verde, no me gustaba como quedaba con el fondo en blanco, como el figma,
+pero si que me parecía estético con la sombra y el mismo color.
 
 - Logo de la página:
 
-  En el figma lo que tenía era solo un titulo, pero me decidí a crear uno en canva, me parece
-  mas estético y profesional.
+En el figma lo que tenía era solo un titulo, pero me decidí a crear uno en canva, me parece
+más estético y profesional.
 
 - Foto de perfil:
 
-  Le añadi una foto de una silueta, me parece mas estético.
+Le añadí una foto de una silueta, me parece más estético.
 
 - Fuente de la página:
 
-  Despúes de realizar diferentes pruebas, finalmente Utilicé la Roboto Regular 400 para toda la página. Es la que más
-  me gusto y se adapta a una mejor legibilidad a mi parecer.
+Después de realizar diferentes pruebas, finalmente utilicé la Roboto Regular 400 para toda la página. Es la que más
+me gusto y se adapta a una mejor legibilidad a mi parecer.
 
 - Iconos de las redes sociales del footer:
 
-  Quité uno que no me parecia util para nada, además los agrandé un poco, y para que sean más visibles
-  no le puse el border radius, así creo que destacan más.
+Quité uno que no me parecía útil para nada, además los agrandé un poco, y para que sean más visibles
+no le puse el border radius, así creo que destacan más.
 
-- Inputs del registrarse:
+- Inputs de registrarse:
 
-  Añadí el teléfono de contacto y los reordene para una mejor lectura.
+Añadí el teléfono de contacto y los organicé para una mejor lectura.
 
 - Perfil:
 
-  El acceso a la pagína del perfil es mediante click en la foto de perfil, soy consciente de que no es del todo intuitivo y de echo pense en añadir
-  un nuevo enlace en el menu del navbar, pero creo que no tiene mucho sentido teniendo en cuenta que el problema real es la falta de una vista con el
-  login ya realizado, así que para mantener lo expuesto en el figma lo solucioné de esta manera.
+El acceso a la página del perfil es mediante click en la foto de perfil, soy consciente de que no es del todo intuitivo y de hecho pensé en añadir
+un nuevo enlace en el menú del navbar, pero creo que no tiene mucho sentido teniendo en cuenta que el problema real es la falta de una vista con el
+login ya realizado, así que para mantener lo expuesto en el figma lo solucioné de esta manera.
 
-  Añadido boton cancelar que te devuelve al index, para el caso de no querer modificar nada.
+Añadido botón cancelar que te devuelve al index, para el caso de no querer modificar nada.
+
+- Pedidos:
+
+Le quité el borde a la tabla, me parece que estaba mal. También aplique un diseño diferente a los tr, de forma alterna a pares, creo que queda mejor.
+Además le añadí un border-radius a la tabla para seguir la línea de la página.
+
+- Inicio:
+
+Añadí una página más para el inicio, es una página básica de bienvenida.
 
 ## RECURSOS<a name="id4"></a>
 

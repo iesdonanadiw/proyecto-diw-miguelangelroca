@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/session.css" />
-    <title>Sesión</title>
+    <link rel="stylesheet" href="css/order.css" />
+    <title>Pedidos</title>
   </head>
   <body>
     <nav class="navbar" id="navbar">
@@ -30,34 +30,59 @@
       </form>
       <form class="navbar_login" action="session.html">
         <button class="login_button">Usuario</button>
-        <a href="profile.html"><img src="img/photo.png" class="login_image" alt="user" /></a>
+        <a href="profile.html"
+          ><img src="img/photo.png" class="login_image" alt="user"
+        /></a>
       </form>
     </nav>
     <main class="main">
       <div class="container">
-        <div class="tarjeta">
-          <form action="#">
-            <p>Iniciar Sesión</p>
-            <div class="input">
-              <label for="usuario">Usuario:</label>
-              <input
-                type="text"
-                name="usuario"
-                placeholder=" Escriba su usuario..."
-              />
-            </div>
-            <div class="input">
-              <label for="password">Contraseña:</label>
-              <input
-                type="password"
-                name="password"
-                placeholder=" Escriba su contraseña..."
-              />
-            </div>
-            <button class="sesion_button">Iniciar Sesión</button>
-            <a href="register.html">¿No estas registrado?</a>
-          </form>
-        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Número de pedido</th>
+              <th>Fecha</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>00001</td>
+              <td>01/01/2023</td>
+              <td><button class="button">PDF</button></td>
+            </tr>
+
+            <tr>
+              <td>00001</td>
+              <td>01/01/2023</td>
+              <td><button class="button">PDF</button></td>
+            </tr>
+
+            <tr>
+              <td>00001</td>
+              <td>01/01/2023</td>
+              <td><button class="button">PDF</button></td>
+            </tr>
+
+            <tr>
+              <td>00001</td>
+              <td>01/01/2023</td>
+              <td><button class="button">PDF</button></td>
+            </tr>
+
+            <tr>
+              <td>00001</td>
+              <td>01/01/2023</td>
+              <td><button class="button">PDF</button></td>
+            </tr>
+
+            <tr>
+              <td>00001</td>
+              <td>01/01/2023</td>
+              <td><button class="button">PDF</button></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </main>
 
