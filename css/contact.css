@@ -1,7 +1,4 @@
 /* Contenido principal */
-.main {
-  grid-area: main;
-}
 .container {
   display: flex;
   justify-content: center;
@@ -14,10 +11,8 @@
   align-items: center;
   padding: 10px;
   border-radius: 5px;
-  min-width: 350px;
-  min-height: 200px;
-  width: 25%;
-  height: 50%;
+  width: 450px;
+  min-width: 250px;
   box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 }
@@ -59,10 +54,11 @@ h3 {
 /* Dispositivos muy pequeños (moviles, 600px o menos) */
 @media only screen and (max-width: 600px) {
   .container {
-    margin: 20px 0px 100px 0px;
+    height: 100vh;
   }
   .tarjeta {
-    height: fit-content;
+    width: fit-content;
+    margin: 0px 10px 0px 10px;
   }
 }
 

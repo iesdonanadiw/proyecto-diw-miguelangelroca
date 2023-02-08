@@ -1,7 +1,4 @@
 /* Contenido principal */
-.main {
-  grid-area: main;
-}
 .container {
   display: flex;
   justify-content: center;

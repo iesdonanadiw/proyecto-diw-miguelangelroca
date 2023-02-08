@@ -1,7 +1,4 @@
 /* Contenido principal */
-.main {
-  grid-area: main;
-}
 .container {
   display: flex;
   justify-content: center;
@@ -14,10 +11,8 @@
   align-items: center;
   padding: 10px;
   border-radius: 5px;
-  min-width: 350px;
-  min-height: 200px;
-  width: 25%;
-  height: 50%;
+  min-width: 250px;
+  width: 350px;
   box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 }
@@ -57,6 +52,11 @@
   text-decoration: none;
   color: #4caf50;
 }
+.adult {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 /* Fin contenido principal */
 
 /*RESPONSIVE*/
@@ -67,7 +67,11 @@
     height: 100vh;
   }
   .tarjeta {
-    height: fit-content;
+    width: fit-content;
+    margin: 0px 10px 0px 10px;
+  }
+  .input {
+    flex-direction: column;
   }
 }
 
