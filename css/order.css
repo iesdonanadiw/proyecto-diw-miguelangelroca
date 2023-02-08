@@ -1,15 +1,12 @@
 /* Contenido principal */
-.container {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
 }
 .table {
   border-radius: 10px;
   overflow: hidden;
-  min-width: 300px;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
@@ -45,8 +42,16 @@ table td {
 
 /* Dispositivos muy pequeños (moviles, 600px o menos) */
 @media only screen and (max-width: 600px) {
-  .container {
-    height: 135vh;
+  .table th,
+  table td {
+    padding: 5px 10px;
+  }
+  .container_button {
+    text-align: right;
+  }
+  .button {
+    width: 45px;
+    height: 20px;
   }
 }
 /* FIN RESPONSIVE */

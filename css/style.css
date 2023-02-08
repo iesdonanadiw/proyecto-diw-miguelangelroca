@@ -25,9 +25,10 @@ body {
   font-size: 1.6rem;
   display: grid;
   grid-template:
-    "navbar" 6%
-    "main" auto
-    "footer" 6%;
+    "navbar navbar  navbar" 1fr
+    "main   main    main"   8fr
+    "footer footer  footer" 1fr 
+    / 1fr 1fr 1fr;
 }
 img,
 picture,
@@ -220,7 +221,7 @@ table {
   }
   .footer {
     flex-flow: column;
-    height: 15vh;
+    height: 100%;
     align-items: center;
     justify-content: space-evenly;
   }
