@@ -1,0 +1,77 @@
+/* Contenido principal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.tarjeta {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  width: 450px;
+  min-width: 250px;
+  box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
+    0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+}
+.tarjeta img {
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
+    0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+}
+.tarjeta form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta label,
+h3 {
+  color: #4caf50;
+}
+.input {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Fin contenido principal */
+
+/*RESPONSIVE*/
+
+/* Dispositivos muy pequeños (moviles, 600px o menos) */
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+    align-items: start;
+  }
+  .tarjeta {
+    width: fit-content;
+    margin: 20px 10px;
+  }
+}
+
+/* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
+@media only screen and (min-width: 600px) {
+  .container {
+    margin: 20px 0px 100px 0px;
+  }
+  .tarjeta {
+    height: fit-content;
+  }
+}
+
+/* FIN RESPONSIVE */
