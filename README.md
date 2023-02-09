@@ -69,7 +69,7 @@ Añadí una página más para el inicio, es una página básica de bienvenida.
 
 - Producto:
 
-Añadí una página de producto, la hice como una demo al hacer click en un producto.
+Añadí una página de producto, la hice como una demo al hacer click en un producto, lleva al mimso producto de demo siempre.
 
 ## RECURSOS<a name="id4"></a>
 
