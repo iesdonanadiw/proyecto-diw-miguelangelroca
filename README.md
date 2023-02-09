@@ -67,6 +67,10 @@ Además le añadí un border-radius a la tabla para seguir la línea de la pági
 
 Añadí una página más para el inicio, es una página básica de bienvenida.
 
+- Producto:
+
+Añadí una página de producto, la hice como una demo al hacer click en un producto.
+
 ## RECURSOS<a name="id4"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/

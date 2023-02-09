@@ -17,6 +17,7 @@
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
 }
 .tarjeta img {
+  border-radius: 10px;
   width: 40%;
   box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
     0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
@@ -55,10 +56,11 @@ h3 {
 @media only screen and (max-width: 600px) {
   .container {
     height: 100vh;
+    align-items: start;
   }
   .tarjeta {
     width: fit-content;
-    margin: 0px 10px 0px 10px;
+    margin: 20px 10px;
   }
 }
 

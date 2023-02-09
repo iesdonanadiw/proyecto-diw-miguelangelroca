@@ -33,6 +33,7 @@ table td {
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .button:hover {
+  cursor: pointer;
   color: black;
   transform: scale(1.1);
 }
