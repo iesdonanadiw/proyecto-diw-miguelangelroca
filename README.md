@@ -39,12 +39,12 @@ Le añadí una foto de una silueta, me parece más estético.
 - Fuente de la página:
 
 Después de realizar diferentes pruebas, finalmente utilicé la Roboto Regular 400 para toda la página. Es la que más
-me gusto y se adapta a una mejor legibilidad a mi parecer.
+me gusto y se adapta a una mejor legibilidad a mi parecer. Para los titulos de productos y producto usé Arial con unos efectos de CSS.
 
 - Iconos de las redes sociales del footer:
 
 Quité uno que no me parecía útil para nada, además los agrandé un poco, y para que sean más visibles
-no le puse el border radius, así creo que destacan más.
+no le puse el border-radius, así creo que destacan más.
 
 - Inputs de registrarse:
 
@@ -60,7 +60,7 @@ Añadido botón cancelar que te devuelve al index, para el caso de no querer mod
 
 - Pedidos:
 
-Le quité el borde a la tabla, me parece que estaba mal. También aplique un diseño diferente a los tr, de forma alterna a pares, creo que queda mejor.
+Le quité el borde a la tabla, me parece que estaba feo. También aplique un diseño diferente a los tr, de forma alterna a pares, creo que queda mejor.
 Además le añadí un border-radius a la tabla para seguir la línea de la página.
 
 - Inicio:
@@ -69,12 +69,13 @@ Añadí una página más para el inicio, es una página básica de bienvenida.
 
 - Producto:
 
-Añadí una página de producto, la hice como una demo al hacer click en un producto, lleva al mimso producto de demo siempre.
+Añadí una página de producto, la hice como una demo al hacer click en un producto, lleva al mismo producto siempre. También añadi un border-radius a las imagenes.
 
 ## RECURSOS<a name="id4"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/
 - CSS Documentation: https://developer.mozilla.org/es/docs/Web/CSS
+
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
 - Tailwind: https://tailwindcss.com/docs
