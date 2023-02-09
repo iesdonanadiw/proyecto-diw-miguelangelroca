@@ -71,6 +71,10 @@ Añadí una página más para el inicio, es una página básica de bienvenida.
 
 Añadí una página de producto, la hice como una demo al hacer click en un producto, lleva al mismo producto siempre. También añadi un border-radius a las imagenes.
 
+- Entrega 2B:
+
+Voy a realizar el bootstrap sobre el index.html
+
 ## RECURSOS<a name="id4"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/
