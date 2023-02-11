@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-
 /* Barra de navegacion */
 .navegation {
   background: linear-gradient(#4caf50, #8bc34a);
   padding: 5px 5%;
 }
-
 .navbar_logo {
   height: 6vh;
   width: auto;
@@ -14,7 +12,7 @@
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
-.navbar_menu a{
+.navbar_menu a {
   color: white;
 }
 .navbar_menu li {
@@ -27,20 +25,20 @@
 .navbar_menu li a:hover {
   color: black;
 }
-.navbar_search {
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-}
 .search_input {
   border-radius: 7px 0px 0px 7px;
   width: 150px;
   height: 35px;
   border: none;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .search_button {
   border-radius: 0px 7px 7px 0px;
   border: none;
   background-color: white;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .search_button:hover {
   cursor: pointer;
@@ -53,8 +51,6 @@
   border-radius: 10px;
 }
 .navbar_login {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 .navbar_login a:hover {
@@ -86,3 +82,54 @@
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 /* Fin barra de navegacion */
+
+/* Contenido principal */
+.tarjeta {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 250px;
+  width: 350px;
+  box-shadow: 0.5em 0.5em 0.8em rgba(0, 0, 0, 0.1),
+    0.1em 0.1em 0.5em rgba(0, 0, 0, 0.3);
+}
+.card_container {
+  gap: 20px;
+}
+.card_container p {
+  color: #4caf50;
+  font-size: 30px;
+}
+.sesion_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: linear-gradient(#4caf50, #8bc34a);
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.sesion_button:hover {
+  cursor: pointer;
+  color: black;
+  transform: scale(1.1);
+}
+/* Fin contenido principal */
+
+/* Pie de pagina */
+.footer_icons img {
+  width: 25px;
+  margin-left: 1.5vw;
+}
+.footer_icons img:hover {
+  transform: scale(1.1);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+/* Fin pie de pagina */
