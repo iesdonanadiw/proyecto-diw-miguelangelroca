@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+/* Barra de navegacion */
+.navegation {
+  background: linear-gradient(#4caf50, #8bc34a);
+  padding: 5px 5%;
+}
+
+.navbar_logo {
+  height: 6vh;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.navbar_menu a{
+  color: white;
+}
+.navbar_menu li {
+  padding: 0 20px;
+}
+.navbar_menu li:hover {
+  transform: scale(1.1);
+}
+
+.navbar_menu li a:hover {
+  color: black;
+}
+.navbar_search {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.search_input {
+  border-radius: 7px 0px 0px 7px;
+  width: 150px;
+  height: 35px;
+  border: none;
+}
+.search_button {
+  border-radius: 0px 7px 7px 0px;
+  border: none;
+  background-color: white;
+}
+.search_button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+.search_button img {
+  height: 30px;
+  min-width: 30px;
+  border-radius: 10px;
+}
+.navbar_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_login a:hover {
+  transform: scale(1.1);
+}
+.login_button {
+  background-color: #4caf50;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.login_button:hover {
+  cursor: pointer;
+  color: black;
+  transform: scale(1.1);
+}
+.login_image {
+  background-color: whitesmoke;
+  margin: 10px;
+  height: 35px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+/* Fin barra de navegacion */
