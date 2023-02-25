@@ -49,20 +49,39 @@
                 nam necessitatibus.
               </p>
             </div>
-            <div class="info">
-              <div class="input">
-                <label>Teléfono:</label>
-                <p>956 000 000</p>
+            <details>
+              <summary>Metodos de Contacto</summary>
+              <br />
+              <div class="info">
+                <div class="gif">
+                  <img src="img/logotipo.gif" alt="logo_animado" />
+                </div>
+                <div class="input">
+                  <label>Teléfono:</label>
+                  <p>956 000 000</p>
+                </div>
+                <div class="input">
+                  <label>Email:</label>
+                  <p>rocashop@roca.com</p>
+                </div>
+                <div class="input">
+                  <label>Direccion:</label>
+                  <p>C/ Roca Piedra S/N</p>
+                </div>
+                <div class="gif">
+                  <form action="">
+                    <button class="buttons" onclick="document.getElementById('dialog').showModal()">Llamame</button>
+                  </form>
+                  <dialog id="dialog" class="dialog">
+                    <div class="modal">
+                      <p>Indique su número de teléfono y le llamaremos lo antes posible.</p>
+                      <input type="text">
+                      <button class="buttons" onclick="document.getElementById('dialog').close()">Enviar</button>
+                    </div>
+                  </dialog>
+                </div>
               </div>
-              <div class="input">
-                <label>Email:</label>
-                <p>rocashop@roca.com</p>
-              </div>
-              <div class="input">
-                <label>Direccion:</label>
-                <p>C/ Roca Piedra S/N</p>
-              </div>
-            </div>
+            </details>
           </form>
         </div>
       </div>
