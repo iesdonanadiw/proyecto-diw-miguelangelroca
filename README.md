@@ -7,7 +7,8 @@
 1. [DESCRIPCIÓN](#id1)
 2. [PROTOTIPO](#id2)
 3. [MODIFICACIONES A LA GUÍA DE ESTILOS](#id3)
-4. [RECURSOS](#id4)
+4. [ENTREGA 4](#id4)
+5. [RECURSOS](#id5)
 
 ## DESCRIPCIÓN<a name="id1"></a>
 
@@ -71,7 +72,23 @@ Añadí una página más para el inicio, es una página básica de bienvenida.
 
 Añadí una página de producto, la hice como una demo al hacer click en un producto, lleva al mismo producto siempre. También añadi un border-radius a las imagenes.
 
-## RECURSOS<a name="id4"></a>
+## ENTREGA 4<a name="id4"></a>
+
+- Transiciones:
+
+Están en el menu de la pagina, boton de busqueda, fotografia de perfil, iconos de redes sociales del footer y en las tarjetas de productos. Se seleccionaron estos 
+elementos para darle algo de movimiento y fluidez a la página.
+
+- Animaciones:
+
+Están en el logo tal y como se pide en la actividad 3 además de aplicar un movimiento de la imagen de las tarjetas de los productos al hacerle foco con el ratón. Se seleccionaron estos elementos para llamar la atención del cliente, principalmemte en el caso de los productos.
+
+- Interactividad:
+
+En construcción...
+
+
+## RECURSOS<a name="id5"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/
 - CSS Documentation: https://developer.mozilla.org/es/docs/Web/CSS
