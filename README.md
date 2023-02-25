@@ -76,7 +76,7 @@ Añadí una página de producto, la hice como una demo al hacer click en un prod
 
 - Transiciones:
 
-Están en el menu de la pagina, boton de busqueda, fotografia de perfil, iconos de redes sociales del footer y en las tarjetas de productos. Se seleccionaron estos 
+Están en el menu de la pagina, boton de busqueda, fotografia de perfil, iconos de redes sociales del footer y en las tarjetas de productos. Se seleccionaron estos
 elementos para darle algo de movimiento y fluidez a la página.
 
 - Animaciones:
@@ -85,8 +85,7 @@ Están en el logo tal y como se pide en la actividad 3 además de aplicar un mov
 
 - Interactividad:
 
-En la página de Contacto añadí el <details> con el gif, y el <dialog> donde mismo, accionado por el boton "Llamame".
-
+En la página de Contacto añadí el /_<details>/_ con el gif, y el /_<dialog>/_ donde mismo, accionado por el boton "Llamame".
 
 ## RECURSOS<a name="id5"></a>
 
