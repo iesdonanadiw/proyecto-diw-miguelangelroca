@@ -25,12 +25,7 @@ a {
   margin: auto 10% 1% 10%;
   padding: 5px;
 }
-.image1{
-  content: url("img/proyecto-6.jpeg");
-}
-.image1:hover{
-  content: url("img/proyecto-6-bw.jpeg");
-}
+
 .product {
   display: flex;
   flex-wrap: wrap;
@@ -67,6 +62,31 @@ a {
   width: auto;
   height: 25vh;
 }
+
+.image1:hover img{
+  content: url("../img/proyecto-6-bw.jpeg");
+}
+
+.image2:hover img{
+  content: url("../img/proyecto-3-bw.jpeg");
+}
+
+.image3:hover img{
+  content: url("../img/proyecto-1-bw.jpeg");
+}
+
+.image4:hover img{
+  content: url("../img/proyecto-5-bw.jpeg");
+}
+
+.image5:hover img{
+  content: url("../img/proyecto-4-bw.jpeg");
+}
+
+.image6:hover img{
+  content: url("../img/proyecto-2-bw.jpeg");
+}
+
 .product_description {
   height: 10vh;
 }
