@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
     <title>Contacto</title>
   </head>
   <body>
+    <audio autoplay loop>
+      <source src="audios/bk-sound.ogg" type="audio/ogg" />
+      <source src="audios/bk-sound.mp3" type="audio/mp3" />
+    </audio>
     <nav class="navbar" id="navbar">
-      <img class="navbar_logo" src="img/logo.png" alt="logo" />
+      <picture>
+        <img class="navbar_logo" src="img/logotipo.svg" alt="logo" />
+      </picture>
       <ul class="navbar_menu">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="products.html">Productos</a></li>
@@ -25,21 +32,27 @@
           placeholder=" Buscar..."
         />
         <button class="search_button">
-          <img src="img/search.png" alt="search" />
+          <picture>
+            <img src="img/search.png" alt="search" />
+          </picture>
         </button>
       </form>
       <form class="navbar_login" action="session.html">
         <button class="login_button">Usuario</button>
-        <a href="profile.html"
-          ><img src="img/photo.png" class="login_image" alt="user"
-        /></a>
+        <a href="profile.html">
+          <picture>
+            <img src="img/photo.png" class="login_image" alt="user" />
+          </picture>
+        </a>
       </form>
     </nav>
     <main class="main">
       <div class="container">
         <div class="tarjeta">
-          <form action="#">
-            <img src="img/logo.png" alt="logo" />
+          <div class="form">
+            <picture>
+              <img src="img/logotipo.svg" alt="logo" />
+            </picture>
             <h3>Sobre Nosotros</h3>
             <div class="input">
               <p>
@@ -49,22 +62,63 @@
                 nam necessitatibus.
               </p>
             </div>
-            <div class="info">
-              <div class="input">
-                <label>Teléfono:</label>
-                <p>956 000 000</p>
+            <details>
+              <summary>Metodos de Contacto</summary>
+              <br />
+              <div class="info">
+                <div class="gif">
+                  <picture>
+                    <img src="img/logotipo.gif" alt="logo_animado" />
+                  </picture>
+                </div>
+                <div class="input">
+                  <label>Teléfono:</label>
+                  <p>956 000 000</p>
+                </div>
+                <div class="input">
+                  <label>Email:</label>
+                  <p>rocashop@roca.com</p>
+                </div>
+                <div class="input">
+                  <label>Direccion:</label>
+                  <p>C/ Roca Piedra S/N</p>
+                </div>
+                <div class="gif">
+                  <button
+                    class="buttons confirm_button"
+                    onclick="document.getElementById('dialog').showModal()"
+                  >
+                    Llamame
+                  </button>
+                  <dialog id="dialog" class="dialog">
+                    <div class="modal">
+                      <p>
+                        Indique su número de teléfono y le llamaremos lo antes
+                        posible.
+                      </p>
+                      <input type="text" />
+                      <div class="tarjeta_button">
+                        <button
+                          class="buttons cancel_button"
+                          onclick="document.getElementById('dialog').close()"
+                        >
+                          Cancelar
+                        </button>
+                        <button
+                          class="buttons confirm_button"
+                          onclick="document.getElementById('dialog').close()"
+                        >
+                          Enviar
+                        </button>
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
               </div>
-              <div class="input">
-                <label>Email:</label>
-                <p>rocashop@roca.com</p>
-              </div>
-              <div class="input">
-                <label>Direccion:</label>
-                <p>C/ Roca Piedra S/N</p>
-              </div>
-            </div>
-          </form>
+            </details>
+          </div class="form">
         </div>
+        <video class="testimonio" src="videos/Testimonio.mp4" controls></video>
       </div>
     </main>
 
@@ -73,9 +127,15 @@
         <span>© 2023 RocaSoft. Todos los derechos reservados.</span>
       </div>
       <div class="footer_icons">
-        <a href="#"><img src="img/instagram.png" alt="instagram" /></a>
-        <a href="#"><img src="img/twitter.png" alt="twitter" /></a>
-        <a href="#"><img src="img/youtube.png" alt="youtube" /></a>
+        <a href="#"
+          ><picture><img src="img/instagram.png" alt="instagram" /></picture
+        ></a>
+        <a href="#"
+          ><picture><img src="img/twitter.png" alt="twitter" /></picture
+        ></a>
+        <a href="#"
+          ><picture><img src="img/youtube.png" alt="youtube" /></picture
+        ></a>
       </div>
     </footer>
   </body>
