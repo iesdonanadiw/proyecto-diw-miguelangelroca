@@ -40,7 +40,7 @@ a {
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-.product:hover img{
+.product:hover img {
   animation-name: product;
   animation-duration: 0.5s;
 }
@@ -63,28 +63,34 @@ a {
   height: 25vh;
 }
 
-.image1:hover img{
-  content: url("../img/proyecto-6-bw.jpeg");
+.image1:hover img {
+  /* content: url("../img/proyecto-6-bw.jpeg"); */
+  filter: grayscale(100%);
 }
 
-.image2:hover img{
-  content: url("../img/proyecto-3-bw.jpeg");
+.image2:hover img {
+  /* content: url("../img/proyecto-3-bw.jpeg"); */
+  filter: grayscale(100%);
 }
 
-.image3:hover img{
-  content: url("../img/proyecto-1-bw.jpeg");
+.image3:hover img {
+  /* content: url("../img/proyecto-1-bw.jpeg"); */
+  filter: grayscale(100%);
 }
 
-.image4:hover img{
-  content: url("../img/proyecto-5-bw.jpeg");
+.image4:hover img {
+  /* content: url("../img/proyecto-5-bw.jpeg"); */
+  filter: grayscale(100%);
 }
 
-.image5:hover img{
-  content: url("../img/proyecto-4-bw.jpeg");
+.image5:hover img {
+  /* content: url("../img/proyecto-4-bw.jpeg"); */
+  filter: grayscale(100%);
 }
 
-.image6:hover img{
-  content: url("../img/proyecto-2-bw.jpeg");
+.image6:hover img {
+  /* content: url("../img/proyecto-2-bw.jpeg"); */
+  filter: grayscale(100%);
 }
 
 .product_description {

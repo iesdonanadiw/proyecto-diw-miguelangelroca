@@ -76,22 +76,30 @@ Añadí una página de producto, la hice como una demo al hacer click en un prod
 
 - Transiciones:
 
-Están en el menu de la pagina, boton de busqueda, fotografia de perfil, iconos de redes sociales del footer y en las tarjetas de productos. Se seleccionaron estos
+Están en el menú de la página, botón de búsqueda, fotografía de perfil, iconos de redes sociales del footer y en las tarjetas de productos. Se seleccionaron estos
 elementos para darle algo de movimiento y fluidez a la página.
 
 - Animaciones:
 
-Están en el logo tal y como se pide en la actividad 3 además de aplicar un movimiento de la imagen de las tarjetas de los productos al hacerle foco con el ratón. Se seleccionaron estos elementos para llamar la atención del cliente, principalmemte en el caso de los productos.
+Están en el logo tal y como se pide en la actividad 3, además de aplicar un movimiento de la imagen de las tarjetas de los productos al hacerle foco con el ratón (:hover). Se seleccionaron estos elementos para llamar la atención del cliente, principalmente en el caso de los productos.
 
 - Interactividad:
 
-En la página de Contacto añadí el <\details> con el gif, y el <\dialog> donde mismo, accionado por el boton "Llamame".
+En la página de Contacto añadí el <\details> con el gif, y el <\dialog> donde mismo, accionado por el botón "Llamame".
+
+- Imagenes:
+
+Le añadí un filtro de escala de grises al hacer foco (:hover), dejé comentada la opción de cambiar la imagen por la de blanco y negro con content mediante CSS.
 
 - Audio:
 
-Chrome por defecto bloquea el audio y video en autoplay, en el caso del video simplememnte lo ponemos en mute y listo, pero el audio en mute no tiene sentido. Para poder solucionarlo añadimos nuestra url local en contenido no seguro, permitiendo el sonido, así funcionaria, en el caso del Mozilla pide permisos, se lo concedemos y listo.
+Chrome por defecto bloquea el audio y video en autoplay, en el caso del video simplemente lo ponemos en mute y listo, pero el audio en mute no tiene sentido. Para poder solucionarlo añadimos nuestra url local en contenido no seguro, permitiendo el sonido, en el caso del Mozilla pide permisos al navegar por la página, se lo concedemos y listo.
 
 URL para configurar -> chrome://settings/content/insecureContent (Aquí añadimos la url del proyecto, por ejemplo: file:///home/roca/proyecto-diw-miguelangelroca/"archivo")
+
+- Video:
+
+El testimonio lo puse en la página de contacto, el video de fondo está en el index.
 
 ## RECURSOS<a name="id5"></a>
 
