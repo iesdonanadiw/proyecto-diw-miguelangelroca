@@ -10,6 +10,16 @@
     <title>Inicio</title>
   </head>
   <body>
+    <audio autoplay loop>
+      <source src="audios/bk-sound.ogg" type="audio/ogg" />
+      <source src="audios/bk-sound.mp3" type="audio/mp3" />
+    </audio>
+    <div class="video_bk">    
+      <video autoplay muted loop>
+        <source src="videos/bk_video.mp4" />
+      </video>
+    </div>
+
     <nav class="navbar" id="navbar">
       <picture>
         <img class="navbar_logo" src="img/logotipo.svg" alt="logo" />
@@ -35,7 +45,10 @@
       </form>
       <form class="navbar_login" action="session.html">
         <button class="login_button">Usuario</button>
-        <a href="profile.html"><picture><img src="img/photo.png" class="login_image" alt="user"/></picture></a>
+        <a href="profile.html"
+          ><picture
+            ><img src="img/photo.png" class="login_image" alt="user" /></picture
+        ></a>
       </form>
     </nav>
     <main class="main">
@@ -44,11 +57,14 @@
           <div class="form">
             <p>Bienvenido a RocaShop</p>
             <div class="advertisement">
-              <h3>Le damos la bienvenida a nuestra pagina especializada en productos CBD.</h3>
+              <h3>
+                Le damos la bienvenida a nuestra pagina especializada en
+                productos CBD.
+              </h3>
             </div>
             <div class="adult">
               <div>
-                <input type="checkbox" id="adult">
+                <input type="checkbox" id="adult" />
               </div>
               <div>
                 <label for="adult">Soy mayor de edad</label>
@@ -68,9 +84,15 @@
         <span>© 2023 RocaSoft. Todos los derechos reservados.</span>
       </div>
       <div class="footer_icons">
-        <a href="#"><picture><img src="img/instagram.png" alt="instagram" /></picture></a>
-        <a href="#"><picture><img src="img/twitter.png" alt="twitter" /></picture></a>
-        <a href="#"><picture><img src="img/youtube.png" alt="youtube" /></picture></a>
+        <a href="#"
+          ><picture><img src="img/instagram.png" alt="instagram" /></picture
+        ></a>
+        <a href="#"
+          ><picture><img src="img/twitter.png" alt="twitter" /></picture
+        ></a>
+        <a href="#"
+          ><picture><img src="img/youtube.png" alt="youtube" /></picture
+        ></a>
       </div>
     </footer>
   </body>

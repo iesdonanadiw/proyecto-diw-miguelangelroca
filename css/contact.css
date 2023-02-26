@@ -1,10 +1,16 @@
 /* Contenido principal */
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+}
+.testimonio {
+  width: 450px;
+  min-width: 250px;
+  margin: 20px;
 }
 .tarjeta {
   display: flex;
@@ -37,7 +43,7 @@ h3 {
   color: #4caf50;
 }
 
-.tarjeta picture{
+.tarjeta picture {
   display: flex;
   justify-content: center;
 }
@@ -53,18 +59,17 @@ h3 {
   gap: 20px;
 }
 
-details summary{
+details summary {
   color: #4caf50;
 }
 
-.gif{
+.gif {
   display: flex;
   justify-content: center;
 }
 
 .buttons {
   cursor: pointer;
-  background-color: #4caf50;
   color: white;
   margin: 10px;
   border-radius: 5px;
@@ -74,6 +79,18 @@ details summary{
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
+.confirm_button {
+  background-color: #4caf50;
+}
+.cancel_button {
+  background-color: #cf2424;
+}
+
+.tarjeta_button {
+  display: flex;
+  flex-direction: row;
+}
+
 .dialog {
   position: fixed;
   margin: auto;
@@ -97,7 +114,7 @@ details summary{
   border: none;
   width: 150px;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 /* Fin contenido principal */
 
@@ -107,11 +124,14 @@ details summary{
 @media only screen and (max-width: 600px) {
   .container {
     height: 100vh;
-    align-items: start;
   }
   .tarjeta {
     width: fit-content;
     margin: 20px 10px;
+  }
+  .testimonio {
+    width: fit-content;
+    padding: 20px 10px;
   }
 }
 

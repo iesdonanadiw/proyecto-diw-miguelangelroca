@@ -87,6 +87,12 @@ Están en el logo tal y como se pide en la actividad 3 además de aplicar un mov
 
 En la página de Contacto añadí el <\details> con el gif, y el <\dialog> donde mismo, accionado por el boton "Llamame".
 
+- Audio:
+
+Chrome por defecto bloquea el audio y video en autoplay, en el caso del video simplememnte lo ponemos en mute y listo, pero el audio en mute no tiene sentido. Para poder solucionarlo añadimos nuestra url local en contenido no seguro, permitiendo el sonido, así funcionaria, en el caso del Mozilla pide permisos, se lo concedemos y listo.
+
+URL para configurar -> chrome://settings/content/insecureContent (Aquí añadimos la url del proyecto, por ejemplo: file:///home/roca/proyecto-diw-miguelangelroca/"archivo")
+
 ## RECURSOS<a name="id5"></a>
 
 - CSS Reset: https://raulperez.tieneblog.net/mi-propio-css-reset/

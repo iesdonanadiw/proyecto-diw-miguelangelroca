@@ -10,6 +10,10 @@
     <title>Contacto</title>
   </head>
   <body>
+    <audio autoplay loop>
+      <source src="audios/bk-sound.ogg" type="audio/ogg" />
+      <source src="audios/bk-sound.mp3" type="audio/mp3" />
+    </audio>
     <nav class="navbar" id="navbar">
       <picture>
         <img class="navbar_logo" src="img/logotipo.svg" alt="logo" />
@@ -82,7 +86,7 @@
                 <div class="gif">
                   <form action="">
                     <button
-                      class="buttons"
+                      class="buttons confirm_button"
                       onclick="document.getElementById('dialog').showModal()"
                     >
                       Llamame
@@ -95,12 +99,20 @@
                         posible.
                       </p>
                       <input type="text" />
-                      <button
-                        class="buttons"
+                      <div class="tarjeta_button">
+                        <button
+                        class="buttons cancel_button"
                         onclick="document.getElementById('dialog').close()"
                       >
-                        Enviar
+                        Cancelar
                       </button>
+                        <button
+                          class="buttons confirm_button"
+                          onclick="document.getElementById('dialog').close()"
+                        >
+                          Enviar
+                        </button>
+                      </div>
                     </div>
                   </dialog>
                 </div>
@@ -108,6 +120,7 @@
             </details>
           </form>
         </div>
+        <video class="testimonio" src="videos/Testimonio.mp4" controls></video>
       </div>
     </main>
 
