@@ -90,7 +90,7 @@
 /* Dispositivos pequeños (tablets y moviles grandes, 600px o más) */
 @media only screen and (min-width: 600px) {
   .container {
-    margin: 20px 0px 100px 0px;
+    padding: 20px 0px 100px 0px;
   }
   .tarjeta {
     height: fit-content;

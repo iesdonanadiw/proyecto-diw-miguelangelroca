@@ -87,7 +87,7 @@ Están en el logo tal y como se pide en la actividad 3, además de aplicar un mo
 
 En la página de Contacto añadí el <\details> con el gif, y el <\dialog> donde mismo, accionado por el botón "Llamame".
 
-- Imagenes:
+- Imágenes:
 
 Le añadí un filtro de escala de grises al hacer foco (:hover), dejé comentada la opción de cambiar la imagen por la de blanco y negro con content mediante CSS.
 
@@ -99,7 +99,9 @@ URL para configurar -> chrome://settings/content/insecureContent (Aquí añadimo
 
 - Video:
 
-El testimonio lo puse en la página de contacto, el video de fondo está en el index.
+El testimonio lo puse en la página de contacto, el video de fondo está en el index. 
+
+Para mantener el diseño responsivo al bajar de los 600px se quita el video de fondo y vuelve la imagen de fondo original.
 
 ## RECURSOS<a name="id5"></a>
 
