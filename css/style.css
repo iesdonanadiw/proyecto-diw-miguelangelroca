@@ -79,6 +79,7 @@ table {
 }
 
 .navbar_logo {
+  background-color: white;
   height: 8vh;
   width: auto;
   border-radius: 5px;

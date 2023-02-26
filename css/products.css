@@ -25,6 +25,12 @@ a {
   margin: auto 10% 1% 10%;
   padding: 5px;
 }
+.image1{
+  content: url("img/proyecto-6.jpeg");
+}
+.image1:hover{
+  content: url("img/proyecto-6-bw.jpeg");
+}
 .product {
   display: flex;
   flex-wrap: wrap;
